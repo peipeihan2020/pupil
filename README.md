@@ -1,3 +1,7 @@
+#EEG
+I have implemented two types of EEG real time plot as a plugin.
+One for Pupil Labs Player
+
 # Pupil
 <a 
 href="https://pupil-labs.com"
