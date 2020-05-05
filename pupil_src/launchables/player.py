@@ -113,6 +113,7 @@ def player(rec_dir, ipc_pub_url, ipc_sub_url, ipc_push_url, user_dir, app_versio
         )
         from system_graphs import System_Graphs
         from system_timelines import System_Timelines
+        from eeg_timelines import EEG_Timelines
         from blink_detection import Offline_Blink_Detection
         from audio_playback import Audio_Playback
         from video_export.plugins.imotions_exporter import iMotions_Exporter
@@ -152,6 +153,7 @@ def player(rec_dir, ipc_pub_url, ipc_sub_url, ipc_push_url, user_dir, app_versio
             Plugin_Manager,
             System_Graphs,
             System_Timelines,
+            EEG_Timelines,
             Audio_Playback,
         ]
         user_plugins = [
@@ -500,6 +502,7 @@ def player(rec_dir, ipc_pub_url, ipc_sub_url, ipc_push_url, user_dir, app_versio
             ("Vis_Circle", {}),
             ("System_Graphs", {}),
             ("System_Timelines", {}),
+            ("EEG_Timelines", {}),
             ("World_Video_Exporter", {}),
             ("Pupil_From_Recording", {}),
             ("GazeFromRecording", {}),
