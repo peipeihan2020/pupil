@@ -1,6 +1,19 @@
-#EEG
+# EEG
 I have implemented two types of EEG real time plot as a plugin.
+
 One for Pupil Labs Player
+<p align="center">
+		<img 
+		src="https://github.com/peipeihan2020/pupil/blob/master/player.png" 
+		alt="Pupil Labs - Pupil Core software: open source eye tracking platform."/>
+	</p>
+One for Pupil Labs Capture
+<p align="center">
+		<img 
+		src="https://github.com/peipeihan2020/pupil/blob/master/capture.png" 
+		alt="Pupil Labs - Pupil Core software: open source eye tracking platform."/>
+	</p>
+
 
 # Pupil
 <a 
