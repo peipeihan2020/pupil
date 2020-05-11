@@ -44,7 +44,9 @@ class EEG_Timelines(Plugin):
             raise Exception('No device')
         self.dtypes = [[], np.float32, np.float64, None, np.int32, np.int16, np.int8, np.int64]
         info = streams[0]
+
         self.inlet = StreamInlet(info)
+        self.inlet.time_correction()
         self.timelines = []
         self.channels = info.channel_count()
 
