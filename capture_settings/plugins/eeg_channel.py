@@ -5,6 +5,7 @@ from pyglui import ui
 from pyglui.pyfontstash import fontstash as fs
 from pylsl import StreamInlet, resolve_stream
 
+
 import data_changed
 import gl_utils
 from observable import Observable
