@@ -1,5 +1,6 @@
 # EEG
 I have implemented two types of EEG real time plot as a plugin.
+EEG signals are published by LabStreamLayer.
 
 One for Pupil Labs Player
 <p align="center">
